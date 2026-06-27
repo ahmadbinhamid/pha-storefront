@@ -46,7 +46,7 @@ function StatCounter({ value, label, format }: (typeof STATS)[0] & { active: boo
   }, []);
 
   return (
-    <div ref={ref} className="text-center">
+    <div ref={ref} className="rounded-xl border border-border bg-bg-3 px-4 py-5 text-center">
       <div className="font-display text-3xl font-black text-accent sm:text-4xl">{format(count)}</div>
       <div className="mt-1.5 text-xs font-medium uppercase tracking-wider text-fg-muted">{label}</div>
     </div>

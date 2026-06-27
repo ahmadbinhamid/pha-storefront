@@ -9,7 +9,6 @@ interface Props {
 const NAV_LINKS = [
   { label: "Home", href: "#home" },
   { label: "Categories", href: "#categories" },
-  { label: "Products", href: "#products" },
   { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ];
@@ -135,7 +134,7 @@ export function Navbar({ onInquiry }: Props) {
           ))}
         </nav>
 
-        <div className="mt-auto flex flex-col gap-2">
+        <div className="mt-auto flex flex-col gap-3">
           <Button variant="outline" className="w-full" onClick={() => { setMenuOpen(false); onInquiry(); }}>
             Enquire
           </Button>

@@ -3,7 +3,6 @@ import { Navbar } from "@/sections/Navbar";
 import { Hero } from "@/sections/Hero";
 import { Search } from "@/sections/Search";
 import { Categories } from "@/sections/Categories";
-import { Products } from "@/sections/Products";
 import { Brands } from "@/sections/Brands";
 import { WhyChooseUs } from "@/sections/WhyChooseUs";
 import { Testimonials } from "@/sections/Testimonials";
@@ -21,7 +20,6 @@ export default function App() {
         <Hero onInquiry={() => setInquiryOpen(true)} />
         <Search />
         <Categories />
-        <Products />
         <Brands />
         <WhyChooseUs />
         <Testimonials />
