@@ -1,0 +1,15 @@
+services:
+  storefront:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: https://admin.partshubaustralia.com.au/api/v1
+    hostname: pha-storefront
+    restart: unless-stopped
+    networks:
+      - pha-net
+
+networks:
+  pha-net:
+    external: true
