@@ -6,7 +6,7 @@ const POPULAR = ["Brake Pads", "Oil Filters", "Spark Plugs", "Air Filters", "Bat
 export function Search() {
   return (
     <section
-      className="relative z-20 -mt-16 mx-4 rounded-2xl border border-border bg-bg-2/95 px-5 py-7 shadow-card backdrop-blur-md sm:mx-8 sm:px-8 sm:py-8 lg:mx-16"
+      className="relative z-20 -mt-16 mx-4 rounded-2xl border border-border bg-bg px-5 py-7 shadow-[0_8px_32px_rgba(120,80,0,0.10)] backdrop-blur-md dark:bg-bg-2/95 dark:shadow-[0_20px_60px_rgba(0,0,0,0.4)] sm:mx-8 sm:px-8 sm:py-8 lg:mx-16"
     >
       <div className="mx-auto max-w-4xl">
         {/* Search bar */}
